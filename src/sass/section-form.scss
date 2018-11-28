@@ -1,0 +1,54 @@
+.sec-form {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  padding: 50px 0px;
+  text-align: center;
+  margin-bottom: 60px;
+  span {
+    color: #323232;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .btn-outline-success {
+    background-color: #8d81ac;
+    border-color: #8d81ac;
+    border-radius: 2.25rem;
+    color: #d4d4d4;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 30px;
+  }
+}
+
+.email {
+  max-width: 290px;
+  background-color: #fff;
+  border-radius: 2.25rem;
+  border: none;
+  font-size: 14px;
+  padding: 15px 30px;
+}
+
+form {
+   padding-top: 40px;
+ }
+
+@media only screen and (min-width: 1024px)  {
+  .sec-form {
+    .wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+    .email{
+      margin-right: 20px;
+    }
+    form {
+      padding-top: 0px;
+    }
+    span {
+      margin-bottom: 0px;
+    }
+  }
+}

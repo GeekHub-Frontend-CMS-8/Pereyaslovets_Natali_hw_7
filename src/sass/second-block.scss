@@ -1,0 +1,36 @@
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #635c73;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.second-block {
+  margin-bottom: 60px;
+  h2 {
+    margin-top: 120px;
+    text-transform: uppercase;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  li {
+    margin-right: 5px;
+  }
+}
+
+ .about {
+    opacity: 0.8;
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .trial {
+    text-align: center;
+    color: #848e97;
+    font-size: 14px;
+    font-weight: 400;}

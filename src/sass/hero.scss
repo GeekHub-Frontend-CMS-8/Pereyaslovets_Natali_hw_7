@@ -1,0 +1,52 @@
+.hero {
+  position: relative;
+  background-image: url("../img/header-img.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 760px;
+  padding-top: 90px;
+  h1 {
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .text-mac {
+    color: #848e97;;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .text-real {
+    color: #8d81ac;
+    padding-bottom: 20px;
+  }
+}
+
+.hero-download {
+  position: absolute;
+  bottom: -62px;
+  left: calc(50% - 195px);
+  display: flex;
+  flex-direction: column;
+  button {
+    margin-bottom: 20px;
+    padding: 20px 65px;
+    border-radius: 30px;
+    background-color: #8d81ac;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+  }
+  span {
+    color: #848e97;
+    font-size: 14px;
+  }
+}
+
+  .btn-outline-success:hover {
+    color: #fff;
+    background-color: #8d81ac;
+    border-color: #8d81ac;
+  }

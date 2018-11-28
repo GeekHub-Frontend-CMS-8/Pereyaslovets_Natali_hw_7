@@ -1,0 +1,98 @@
+.pricing {
+  background-image: url("../img/fork.png");
+  background-color: #4b3b4e;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  .wrap {
+    padding-top: 60px;
+    border-top: 1px solid #c7c7c7;
+  }
+    h2 {
+    color: #d4d4d4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+      padding-bottom: 120px;
+  }
+  h4 {
+    color: #d4d4d4;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #695b6a;
+    padding: 45px 0px 30px 0px;
+    margin-bottom: 0px;
+  }
+  p {
+    color: #d4d4d4;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.month {
+  opacity: 0.3;
+  color: #d4d4d4;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.price {
+  color: #d4d4d4;
+  font-family: 'Montserrat';
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pricing-heading {
+  background-color: #695b6a;
+}
+
+.pricing-content {
+  background-color: #5f5161;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  height: 360px;
+  p {
+    padding: 25px 25px 0px;
+    min-height: 100px;
+  }
+}
+
+.pricing-content-text {
+  margin-bottom: 30px;
+}
+
+button.btn-pur {
+  background-color: #d4d4d4;
+  border-radius: 2.25rem;
+  color: #fff;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  max-width: 150px;
+  margin: 0 auto;
+  border-color: #d4d4d4;
+}
+
+.info-block {
+  max-width: 255px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px)  {
+  .pricing-content-text {
+    margin-bottom: 75px;
+  }
+
+}

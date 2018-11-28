@@ -1,0 +1,37 @@
+.about-fork {
+  background-image: url("../img/bgrd-block.png");
+  background-size: cover;
+  background-position: center;
+  h2{
+    color: #d4d4d4;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    padding-top: 65px;
+  }
+  p {
+    color: #d4d4d4;
+    font-family: 'Source Sans Pro - Bold It', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 55px;
+  }
+}
+
+.fork-block {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px)  {
+  .about-fork h2{
+    padding-top: 100px;
+  }
+}
+
+.img-fork {
+  max-height: 50px;
+  margin-bottom: 25px;
+  height: 100%;
+}

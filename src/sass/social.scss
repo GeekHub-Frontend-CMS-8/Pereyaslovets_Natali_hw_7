@@ -1,0 +1,67 @@
+.social-git {
+  background-color: #f3f3f3;
+  color: #000000;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+
+.social-twi {
+  position: relative;
+  background-color: #26a6d1;
+  color: #fff;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.social-fas {
+  position: relative;
+  background-color: #3b5998;
+  color: #fff;
+  padding: 15px 0px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.social {
+  text-align: center;
+  margin-top: 60px;
+  .col-sm {
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+  .fab {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 25px;
+  }
+  .fa-github {
+    color: #000;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.followers {
+  color: #848e97;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+
+
+

@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #d4d4d4;
+  font-size: 82px;
+  font-weight: 700;
+}
+
+.wrap {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.img-fluid {
+  max-width: 45px;
+  height: 40px;
+}
+
+nav {
+  .wrap {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 768px)  {
+  .wrap {
+    max-width: 738px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px)  {
+  .wrap {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
