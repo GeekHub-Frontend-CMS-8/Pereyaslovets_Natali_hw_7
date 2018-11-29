@@ -11,8 +11,18 @@
     margin-bottom: 40px;
   }
   .btn-outline-success {
-    background-color: #8d81ac;
-    border-color: #8d81ac;
+       background-color: #8d81ac;
+       border-color: #8d81ac;
+       border-radius: 2.25rem;
+       color: #d4d4d4;
+       font-size: 13px;
+       font-weight: 400;
+       text-transform: uppercase;
+       padding: 15px 30px;
+     }
+  .btn-outline-success:hover {
+    background-color: #b8daff;
+    border-color: #b8daff;
     border-radius: 2.25rem;
     color: #d4d4d4;
     font-size: 13px;

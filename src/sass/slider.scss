@@ -1,0 +1,36 @@
+.slider-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: #8d81ac;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.slider-text {
+  text-align: center;
+}
+
+.block-hours {
+  color: #848e97;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.block-text {
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  a {
+    color: #8d81ac;
+  }
+}
+
+.slider-image {
+  padding: 25px;
+}

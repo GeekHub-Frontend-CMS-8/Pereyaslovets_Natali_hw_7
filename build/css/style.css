@@ -6482,6 +6482,36 @@ h2 {
 .fourth-block h2 {
   text-transform: uppercase; }
 
+.slider-block {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .slider-block a {
+    color: #8d81ac;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400; }
+
+.slider-text {
+  text-align: center; }
+
+.block-hours {
+  color: #848e97;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400; }
+
+.block-text {
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  font-weight: 400; }
+  .block-text a {
+    color: #8d81ac; }
+
+.slider-image {
+  padding: 25px; }
+
 .social-git {
   background-color: #f3f3f3;
   color: #000000;
@@ -6664,6 +6694,15 @@ button.btn-pur {
   .sec-form .btn-outline-success {
     background-color: #8d81ac;
     border-color: #8d81ac;
+    border-radius: 2.25rem;
+    color: #d4d4d4;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 30px; }
+  .sec-form .btn-outline-success:hover {
+    background-color: #b8daff;
+    border-color: #b8daff;
     border-radius: 2.25rem;
     color: #d4d4d4;
     font-size: 13px;
